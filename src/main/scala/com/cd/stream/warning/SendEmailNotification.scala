@@ -6,7 +6,6 @@ import com.cd.stream.utils.{Logging, StringUtils}
 import java.util.Properties
 import javax.mail.internet.{InternetAddress, MimeMessage}
 import javax.mail.{Message, Session}
-import com.msb.stream.utils
 
 
 object SendEmailNotification extends Logging {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.msb</groupId>
-  <artifactId>msb-edt-streaming-process</artifactId>
+  <groupId>com.cd</groupId>
+  <artifactId>kafka-streaming-process</artifactId>
   <name>${project.artifactId}</name>
   <version>1.0</version>
-  <description>MSB EDT UC Streaming process</description>
+  <description>UC Streaming process</description>
   <inceptionYear>2023</inceptionYear>
   <licenses>
     <license>
@@ -184,14 +184,14 @@
     </dependency>
   </dependencies>
   <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <spark.version>3.2.3</spark.version>
     <scala.compat.version>2.12</scala.compat.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
     <scala.version>2.12.6</scala.version>
-    <spec2.version>4.2.0</spec2.version>
     <jackson.version>2.12.7</jackson.version>
     <encoding>UTF-8</encoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <spark.version>3.2.3</spark.version>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <spec2.version>4.2.0</spec2.version>
   </properties>
 </project>
 
